@@ -9,10 +9,10 @@
           "motoko"
         ],
         "frontend": {
-          "entrypoint": "dist/index.html"
+          "entrypoint": "dist/angularmotoko/index.html"
         },
         "source": [
-          "dist/"
+          "dist/angularmotoko"
         ],
         "type": "assets"
       }

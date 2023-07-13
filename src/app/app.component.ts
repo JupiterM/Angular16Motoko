@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MotokoService } from "./services/motoko.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularmotoko';
+
+  constructor(private motokoService: MotokoService){
+    let hello = motokoService.greet("Mister Max");
+    console.log(hello);
+  }
 }

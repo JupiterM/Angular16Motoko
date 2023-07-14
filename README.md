@@ -4,10 +4,10 @@ Welcome to the Angular16 Motoko Github repo!
 This repository is made to be a plug-and-play solution for using Angular16 as an ICP smart contract canister front-end with Motoko as the canister back-end. 
 
 ## Quickstart
-run git clone <thisrepo>
-cd Angular16Motoko
-run 'npm install -y', 
-run 'npm run deploy:local'
+run git clone 'https://github.com/JupiterM/Angular16Motoko'.
+cd Angular16Motoko.
+run 'npm install -y'. 
+run 'npm run deploy:local'.
 
 ZoneAware promise returns value in console. Only there to demostrate connectivity. Will be changed later.
 

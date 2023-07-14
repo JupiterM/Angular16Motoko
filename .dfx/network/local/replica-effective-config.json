@@ -4,16 +4,16 @@
   "config": {
     "http_handler": {
       "port": null,
-      "write_port_to": "/home/matthew/Desktop/ICP/mainnet/AngularIc/angularmotoko/.dfx/network/local/replica-configuration/replica-1.port"
+      "write_port_to": "/home/matthew/Desktop/ICP/mainnet/3dgaming/angularmotoko/.dfx/network/local/replica-configuration/replica-1.port"
     },
     "state_manager": {
-      "state_root": "/home/matthew/Desktop/ICP/mainnet/AngularIc/angularmotoko/.dfx/network/local/state/replicated_state"
+      "state_root": "/home/matthew/Desktop/ICP/mainnet/3dgaming/angularmotoko/.dfx/network/local/state/replicated_state"
     },
     "crypto": {
-      "crypto_root": "/home/matthew/Desktop/ICP/mainnet/AngularIc/angularmotoko/.dfx/network/local/state/crypto_store"
+      "crypto_root": "/home/matthew/Desktop/ICP/mainnet/3dgaming/angularmotoko/.dfx/network/local/state/crypto_store"
     },
     "artifact_pool": {
-      "consensus_pool_path": "/home/matthew/Desktop/ICP/mainnet/AngularIc/angularmotoko/.dfx/network/local/state/consensus_pool"
+      "consensus_pool_path": "/home/matthew/Desktop/ICP/mainnet/3dgaming/angularmotoko/.dfx/network/local/state/consensus_pool"
     },
     "subnet_type": "application",
     "btc_adapter": {
@@ -22,7 +22,7 @@
     },
     "canister_http_adapter": {
       "enabled": true,
-      "socket_path": "/tmp/ic-https-outcalls-adapter-socket.14053.1689273812"
+      "socket_path": "/tmp/ic-https-outcalls-adapter-socket.16993.1689352421"
     },
     "log_level": "error",
     "artificial_delay": 600

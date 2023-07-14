@@ -11,6 +11,9 @@ run 'npm run deploy:local'.
 
 ZoneAware promise returns value in console. Only there to demostrate connectivity. Will be changed later.
 
+## Deploy on IC Network
+Just change values in 'canister_ids.json' to your own.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
 ## Development server

@@ -8,7 +8,7 @@
     "init:dfx": "npm run restart:clean:dfx && npm run refresh:motoko && dfx stop",
     "start": "npm run restart:dfx && npm run refresh:motoko && npm run serve:both && npm run print:ng",
     "test": "npm run restart:dfx && ng test",
-    "deploy:dfx": "npm run restart:dfx && npm run build:prod && dfx deploy --network ic --no-wallet",
+    "deploy:ic": "npm run restart:dfx && npm run build:prod && dfx deploy --network ic --no-wallet",
     "deploy:local": "npm run restart:clean:dfx && dfx canister create motoko && npm run build:dev && dfx deploy",
     "serve:both": "concurrently -k \"npm run watch:motoko\" \"ng serve && dfx stop\"",
     "watch:motoko": "nodemon --watch src --ext mo -x \"npm run refresh:motoko\"",

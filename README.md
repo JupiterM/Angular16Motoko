@@ -1,7 +1,7 @@
 # Easy Angular16 Motoko
 
 Welcome to the Easy Angular16 Motoko Github repo! 
-This repository is made to be a plug-and-play solution for using Angular16 as an ICP smart contract canister front-end with Motoko as the canister back-end.
+This repository is made to be a plug-and-play solution for using Angular16 as an ICP smart contract canister front-end with Motoko as the canister back-end. <br />
 This project uses Angular version 16.1.3 and DFX version 0.14.2.
 
 ## Quickstart
@@ -21,7 +21,12 @@ Angular is meant to be run as a front-end canister, so 'ng serve' is not preferr
 Use 'npm run deploy:local' instead.
 
 ## Code scaffolding
-Components and services can be created the same.
+Components and services can be created the same. <br />
+When creating a new component or service: <br />
+{ MotokoService } must be imported and instantiated prior to being used. <br />
+After updating Motoko smart contract 'main.mo' <br />
+run "npm run generate:motoko" to generate new candid files <br />
+The motoko services file 'motoko.service.ts' must also be updated.  
 
 
 ## Building Angular Application

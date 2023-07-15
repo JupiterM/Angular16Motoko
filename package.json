@@ -12,7 +12,7 @@
     "deploy:local": "npm run restart:clean:dfx && dfx canister create motoko && npm run build:dev && dfx deploy",
     "serve:both": "concurrently -k \"npm run watch:motoko\" \"ng serve && dfx stop\"",
     "watch:motoko": "nodemon --watch src --ext mo -x \"npm run refresh:motoko\"",
-    "print:dfx:www": "echo local IC server: http://127.0.0.1:8000/?canisterId=$(dfx canister id www)",
+    "print:dfx:angular": "echo local IC server: http://127.0.0.1:8000/?canisterId=$(dfx canister id angular)",
     "print:dfx:motoko": "echo local IC server: http://127.0.0.1:8000/?canisterId=$(dfx canister id motoko)",
     "generate:motoko": "dfx generate motoko",
     "restart:dfx": "dfx stop && dfx start --background",

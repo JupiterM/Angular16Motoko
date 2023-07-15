@@ -33,8 +33,8 @@ The motoko services file 'motoko.service.ts' must also be updated.
 
 Instead of using `ng build` to build the project, <br />
 use either: <br />
-'npm run deploy:local' for a local deployment or <br />
-'npm run deploy:ic' for a mainnet deployment
+'npm run build:dev' for a development build or <br />
+'npm run build:prod' for a production build
 
 ## Running unit and end-to-end tests
 
